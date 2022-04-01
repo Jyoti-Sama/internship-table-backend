@@ -67,7 +67,7 @@ export const saveToEmail = async (req, res) => {
 
     var mailOptions = {
         from: process.env.USER_EMAI,
-        to: 'jyotirmoysamadder712@gmail.com',
+        to: 'info@redopositive.in',
         subject: 'sending Emails from node',
         html: HTML
     }
